@@ -1,0 +1,17 @@
+[project]
+name = "day26-sqlite-mcp-lab"
+version = "0.1.0"
+description = "FastMCP SQLite database server lab with search, insert, aggregate, and schema resources."
+requires-python = ">=3.12"
+dependencies = [
+    "mcp[cli]>=1.16.0",
+    "fastmcp>=2.12.4",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["implementation/tests"]
+pythonpath = ["implementation"]
+
