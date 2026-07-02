@@ -2,9 +2,9 @@
   "mcpServers": {
     "sqlite-lab": {
       "type": "stdio",
-      "command": "python",
+      "command": "D:\\2 Code\\4 Expert\\Day26\\Day26-Track3-MCP-tool-integration\\.venv\\Scripts\\python.exe",
       "args": [
-        "/ABSOLUTE/PATH/TO/Day26-Track3-MCP-tool-integration/implementation/mcp_server.py"
+        "D:\\2 Code\\4 Expert\\Day26\\Day26-Track3-MCP-tool-integration\\implementation\\mcp_server.py"
       ],
       "env": {}
     }
